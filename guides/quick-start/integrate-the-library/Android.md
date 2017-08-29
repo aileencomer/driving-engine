@@ -42,7 +42,7 @@ Add the following permissions to your app.
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 ```
-__NOTE__: As of Android M, there are several runtime permissions you can also request. You can find more information on that [here](http://insert.link.here)
+__NOTE__: As of Android M, there are several runtime permissions you can also request. You can find more information on that [here](../../best-practices/ux-guidelines/Index.md)
 
 ## Next Steps
-You should now be able to build your application without any errors. If that's working, let's move on to the next step and [setup the drive engine](../setup-drive-engine/Android.html)
+You should now be able to build your application without any errors. If that's working, let's move on to the next step and [setup the drive engine](../setup-drive-engine/Android.md)

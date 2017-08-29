@@ -176,7 +176,7 @@ public void onError(DEMError demError) {
 ```
 
 ## Notes
-In a production app, it's best practice to bump this over to a background service. You can learn more about that [here](,,/../04 Best Practices/Running in a Background Service/Android.md).
+In a production app, it's best practice to run this in a background service. You can learn more about that [here](,,/../best-practices/background-service/Android.md).
 
 ## Next Steps
-Now that the app is setup, let's test it with some mock data! You can do learn to do that [here](../test-mock-data/Android.html).
+Now that the app is setup, let's test it with some mock data! You can do learn to do that [here](../test-mock-data/Android.md).
