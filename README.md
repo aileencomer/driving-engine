@@ -17,4 +17,4 @@ Using the Drive Engine SDK, you'll be able to:
 Head over to [Releases](https://github.com/arity-developer/driving-engine/releases) to download the latest build of the SDK. 
 
 ## Quick Start
-To get up and running with the SDK quickly, check out the [Quick Start](https://github.com/arity-developer/driving-engine/quick-start/Index.md)
+To get up and running with the SDK quickly, check out the [Quick Start](https://github.com/arity-developer/driving-engine/blob/master/quick-start/Index.md)
