@@ -1,11 +1,11 @@
-# Arity Drive Engine SDK
-The Drive Engine SDK allows developers to gain insights into how a driver is operating their car. At Arity, we use this information to make informed decisions about driving behavior.
+# Arity Driving Engine SDK
+The Driving Engine SDK allows developers to gain insights into how a driver is operating their car. At Arity, we use this information to make informed decisions about driving behavior.
 
 **_PLEASE NOTE_**
 **_This documentation is a work in progress. Sections may not exist or may drastically change before finalized._**
 
 ## Features
-Using the Drive Engine SDK, you'll be able to:
+Using the Driving Engine SDK, you'll be able to:
 * Detect when a user starts and stops driving their car
 * Detect hard accelerations
 * Detect hard braking
