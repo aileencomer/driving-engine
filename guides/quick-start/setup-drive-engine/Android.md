@@ -122,9 +122,10 @@ Once we've called this method in `onCreate`, the rest of the overridden methods 
 
 ## Runtime Permissions
 With the introduction of Android M, users have more granular control over the permissions they give an app. For your app to work with the Drive Engine, you'll need to require several runtime permissions:
-    * `Manifest.permission.ACCESS_FINE_LOCATION`
-    * `Manifest.permission.WRITE_EXTERNAL_STORAGE`
-    * `Manifest.permission.READ_EXTERNAL_STORAGE`
+
+* `Manifest.permission.ACCESS_FINE_LOCATION`
+* `Manifest.permission.WRITE_EXTERNAL_STORAGE`
+* `Manifest.permission.READ_EXTERNAL_STORAGE`
 
 Add these as a field to our class:
 
