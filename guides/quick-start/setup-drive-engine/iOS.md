@@ -95,9 +95,9 @@ func registerDriveEventListener() {
 }
 ```
 
-In our `registerDriveEventListener()` method, we register the `ViewController` as the event listener for drive events. The second line tells the Drive Engine that it should surface all Drive Events to the listener. If you need to whitelist or blacklist events, you can learn to filter them [here](../../customization/iOS.md). We call this function in `viewDidLoad` and then start the engine.
+In our `registerDriveEventListener()` method, we register the `ViewController` as the event listener for drive events. The second line tells the Drive Engine that it should surface all Drive Events to the listener. We call this function in `viewDidLoad` and then start the engine.
 
-The rest of the functions are implementations of the `DEMDrivingEngineDelegate` protocol. These functions act as callbacks for different drive engine events. As you can see from the available callbacks, you have a rich number events to draw from the Drive Engine to affect the functionality of your application. You can learn about these in more detail [here](../../reference/available-callbacks.md).
+The rest of the functions are implementations of the `DEMDrivingEngineDelegate` protocol. These functions act as callbacks for different drive engine events. As you can see from the available callbacks, you have a rich number events to draw from the Drive Engine to affect the functionality of your application. A full listing is available [here](../../reference/available-callbacks.md).
 
 ## Next Steps
 Now that the app is setup, let's test it with some mock data! You can do learn to do that [here](../test-mock-data/iOS.md).
