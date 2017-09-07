@@ -12,6 +12,8 @@ For example, if you wanted to only capture trip start and stop,
 DEMDrivingEngineManager.getInstance().registerForEventCapture(DEMEventCaptureMask.RECORDING_STARTED_WITH_DATA|DEMEventCaptureMask.RECORDING_STOPPED);
 ```
 
+You can find a full listing of event capture masks [here](../reference/available-callbacks.md)
+
 ## Access Raw GPS Trails
 
 If you'd like finer granularity than trip summaries, you can access raw GPS and activity data from the SDK. You can do this by enabling Developer Mode and Raw Data capture as shown below.
@@ -35,3 +37,15 @@ private void configureSDK() {
 }
 ```
 
+## Modify the Speed Limit for Speeding Events
+```java
+func configureDriveEngine() {
+    // Read current configuration
+    DEMConfiguration demConfiguration = DEMConfiguration.getConfiguration();
+    
+    // set speed limit
+    demConfiguration.setSpeedLimit(40);
+
+    // Store configuration
+    DEMDrivingEngineManager.getInstance().setConfiguration(demConfiguration);
+}
