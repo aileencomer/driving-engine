@@ -13,7 +13,7 @@ Switch to the Project View and drag Core Engine `.aar` file into `libs` folder. 
 
 ```gradle
 dependencies {
-    compile(name: 'coreEngine_release_1.11.3', ext: 'aar')
+    implementation(name: 'coreEngine_release_1.11.3', ext: 'aar')
 }
 
 repositories {
@@ -36,10 +36,8 @@ Add the following permissions to your app.
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 ```
 __NOTE__: As of Android M, there are several runtime permissions you can also request. You'll learn more about when you setup the drive engine in the next step.
