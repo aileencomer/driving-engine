@@ -62,4 +62,4 @@ If you don't see a trip start message after 15 seconds, you may need to close an
 ```
 
 ## Next Steps
-Great, you've got some test data working! Next, we'll learn to [interpret the trip summaries](../interpret-trip-summary.md).
+Great, you've got some test data working! Next, we'll learn to [interpret the trip summaries](../../reference/interpret-trip-summary.md).
