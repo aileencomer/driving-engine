@@ -24,7 +24,7 @@ In the source view,
 </array>
 ```
 
-You'll want to change these description entries to describe to a user while you'll be accessing their location. You can learn more about that in our [UX Guidelines](../../best-practices/ux-guidelines/Index.md)
+You'll want to change these description entries to describe to a user while you'll be accessing their location. You can learn more about that in our [UX Guidelines](../../best-practices/ux-guidelines/iOS.md)
 
 ## Next Steps
 You should now be able to build your application without any errors. If that's working, let's move on to the next step and [setup the drive engine](../setup-drive-engine/iOS.md)
