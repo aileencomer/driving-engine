@@ -18,6 +18,9 @@ class ViewController: UIViewController, DEMDrivingEngineDelegate {
         
         // register the view controller as a listener
         registerDriveEventListener()
+
+        // configure Driving Engine
+        configureDrivingEngine()
         
         let sharedEngine = DEMDrivingEngineManager.sharedManager() as! DEMDrivingEngineManager
         sharedEngine.startEngine()
@@ -36,6 +39,18 @@ class ViewController: UIViewController, DEMDrivingEngineDelegate {
         
         // listen to all driving events available
         sharedEngine.register(for: DEMEventCaptureMask.all)
+    }
+
+    func configureDrivingEngine() {
+        let driveEngine = DEMDrivingEngineManager.sharedManager() as! DEMDrivingEngineManager
+        
+        // insert configuration here
+        let config = DEMConfiguration.sharedManager() as DEMConfiguration
+        config.enableWebServices = false
+        config.speedLimit = 40
+        
+        driveEngine.setConfiguration(config)
+        driveEngine.startEngine()
     }
 
     func didStartTripRecording(_ drivingEngine: DEMDrivingEngineManager!) -> String! {

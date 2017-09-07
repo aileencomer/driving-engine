@@ -7,7 +7,7 @@ With the SDK, you're provided with two files in the `Data` folder, `MockActivity
 On the `Build Phases` section of your project settings, add both files to the `Copy Bundle Resources` build step. As before, ensure you check the `Copy files if needed` option when you locate the files.
 
 ## Modify MainActivity
-Add the following function to your `ViewController`:
+Add the following functions to your `ViewController`:
 
 ```swift
 func startMockTrip(cadence: TimeInterval) {
@@ -26,8 +26,8 @@ override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     
-    // configure SDK
-    configureSDK()
+    // configure Driving Engine
+    configureDrivingEngine()
     
     // register the view controller as a listener
     registerDriveEventListener()
