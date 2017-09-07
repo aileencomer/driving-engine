@@ -39,7 +39,7 @@ override func viewDidLoad() {
 }
 ```
 
-The `cadence` that you set for `startMockTrip` will determine how fast the engine processes each GPS point. For example, a value of `0.5` would correspond to a half second between points where 1 would be real time.
+The `cadence` that you set for `startMockTrip` will determine how fast the engine processes each GPS point. For example, a value of `0.5` would correspond to a half second between points where a value of `1.0` would be real time.
 
 ## Test the application
 Since there isn't any UI on this app, we'll monitor the `Device COnsole` to ensure the mock trip is working. After you've built and deployed the app to your phone, run the app to with it connected to your laptop to see debug messages. You should see:
