@@ -13,8 +13,8 @@ final String MOCK_LOCATION_PATH = "/storage/emulated/0/Download/MockLocation.txt
 Add the following function to your `MainActivity`:
 
 ```java
-private void startMockTrip(boolean fastMock, double mockCadence) {
-    DEMDrivingEngineManager.getInstance().startMockTrip(MOCK_ACTIVITY_PATH, MOCK_LOCATION_PATH, fastMock, mockCadence);
+private void startMockTrip(double cadence) {
+    DEMDrivingEngineManager.getInstance().startMockTrip(MOCK_ACTIVITY_PATH, MOCK_LOCATION_PATH, true, cadence);
 }
 ```
 
@@ -36,11 +36,11 @@ protected void onCreate(Bundle savedInstanceState) {
     DEMDrivingEngineManager.getInstance().startEngine();
 
     // start mock trip
-    startMockTrip(true, 0.3);
+    startMockTrip(0.3);
 }
 ```
 
-TODO: explain what fastMock and mockCadence are
+The `cadence` that you set for `startMockTrip` will determine how fast the engine processes each GPS point. For example, a value of `0.5` would correspond to a half second between points where 1 would be real time.
 
 ## Test the application
 Since there isn't any UI on this app, we'll monitor `logcat` to ensure the mock trip is working. After you've built and deployed the app to your phone, run the following to monitor logs from the app in your Terminal / Command Prompt:
