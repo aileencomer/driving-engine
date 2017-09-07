@@ -149,6 +149,8 @@ private void checkPermissions() {
         }
     }
 
+    if(denied.size() == 0) return;
+
     ActivityCompat.requestPermissions(this, denied.toArray(new String[denied.size()]),
             PERMISSIONS_REQUEST_ACCESS);
 }
