@@ -11,4 +11,3 @@ This documentation assumes you are building a native Android or iOS app.
 
 * [Start here](integrate-the-library/Android.md) for Android development
 * [Start here](integrate-the-library/Android.md) for iOS development
-You can get started with Android [here](integrate-the-library/Android.md) and with iOS [here](integrate-the-library/iOS.md)
