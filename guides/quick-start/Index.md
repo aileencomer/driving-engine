@@ -1,6 +1,6 @@
 # Quick Start
 
-You can get up an running with the Drive Engine SDK from here. In this guide, you'll:
+You can get up and running with the Drive Engine SDK from here. In this guide, you'll:
 
 * Integrate the SDK with your project
 * Setup the Drive Engine
