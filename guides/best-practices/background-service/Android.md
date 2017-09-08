@@ -39,7 +39,7 @@ public class CoreEngineService extends Service {
 }
 ```
 
-This service will need extend the `Service` class. In addition, to capture Drive Engine events, we'll need to implement the `DEMDrivingEngineManager.EventListener` interface.
+This service will need extend the `Service` class. In addition, to capture Driving Engine events, we'll need to implement the `DEMDrivingEngineManager.EventListener` interface.
 
 ## Capture Drive Events
 Before the SDK starts, we need it to let it know that our service will capture drive events. Let's create a function to do so and change the `onCreate` of our service to call it.

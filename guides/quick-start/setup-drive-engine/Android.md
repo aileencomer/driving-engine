@@ -1,5 +1,5 @@
-# Setup the Drive Engine
-Here, we're going to configure the Drive engine and start it in the foreground. We'll do this from the `MainActivity` of our application. 
+# Setup the Driving Engine
+Here, we're going to configure the Driving Engine and start it in the foreground. We'll do this from the `MainActivity` of our application. 
 
 ## Imports
 Add the following imports to your `MainActivity`:
@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity implements DEMDrivingEngineM
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // set context for the drive engine
+        // set context for the Driving Engine
         DEMDrivingEngineManager.setContext(this.getApplicationContext());
 
         // register this activity as a listener
         registerDriveEngineListener();
 
-        // start drive engine
+        // start Driving Engine
         DEMDrivingEngineManager.getInstance().startEngine();
     }
 
@@ -116,12 +116,12 @@ public void registerDriveEngineListener() {
 }
 ```
 
-In our `registerDriveEventListener()` method, we register the `MainActivity` as the event listener for drive events. The second line tells the Drive Engine that it should surface all Drive Events to the listener.
+In our `registerDriveEventListener()` method, we register the `MainActivity` as the event listener for drive events. The second line tells the Driving Engine that it should surface all Drive Events to the listener.
 
-Once we've called this method in `onCreate`, the rest of the overridden methods from `DEMDrivingEngineManager.EventListener` are purely callbacks for different drive events. As you can see from the available callbacks, you have a rich number events to draw from the Drive Engine to affect the functionality of your application. A full listing is available [here](../../reference/available-callbacks.md).
+Once we've called this method in `onCreate`, the rest of the overridden methods from `DEMDrivingEngineManager.EventListener` are purely callbacks for different drive events. As you can see from the available callbacks, you have a rich number events to draw from the Driving Engine to affect the functionality of your application. A full listing is available [here](../../reference/available-callbacks.md).
 
 ## Runtime Permissions
-With the introduction of Android M, users have more granular control over the permissions they give an app. For your app to work with the Drive Engine, you'll need to require several runtime permissions:
+With the introduction of Android M, users have more granular control over the permissions they give an app. For your app to work with the Driving Engine, you'll need to require several runtime permissions:
 
 * `Manifest.permission.ACCESS_FINE_LOCATION`
 * `Manifest.permission.WRITE_EXTERNAL_STORAGE`
@@ -163,7 +163,7 @@ Let's add this before the `startEngine` call in `onCreate`
 // check runtime permissions
 checkPermissions();
 
-// start drive engine
+// start Driving Engine
 DEMDrivingEngineManager.getInstance().startEngine();
 ```
 

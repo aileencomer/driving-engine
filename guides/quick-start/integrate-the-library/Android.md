@@ -1,5 +1,5 @@
 # Integrating the Library
-The Android version of the Drive Engine SDK is delivered as an `Android Archive (.aar)`. With a couple steps, you can quickly get up and running with the Drive Engine SDK in your project.
+The Android version of the Driving Engine SDK is delivered as an `Android Archive (.aar)`. With a couple steps, you can quickly get up and running with the Driving Engine SDK in your project.
 
 ## Dependencies
 The SDK requires the following libraries to run:
@@ -40,7 +40,7 @@ Add the following permissions to your app.
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
 ```
-__NOTE__: As of Android M, there are several runtime permissions you can also request. You'll learn more about when you setup the drive engine in the next step.
+__NOTE__: As of Android M, there are several runtime permissions you can also request. You'll learn more about when you setup the Driving Engine in the next step.
 
 ## Next Steps
-You should now be able to build your application without any errors. If that's working, let's move on to the next step and [setup the drive engine](../setup-drive-engine/Android.md)
+You should now be able to build your application without any errors. If that's working, let's move on to the next step and [setup the Driving Engine](../setup-drive-engine/Android.md)

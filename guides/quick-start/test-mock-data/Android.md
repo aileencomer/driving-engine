@@ -1,5 +1,5 @@
 # Test with Mock Data
-Now that we've got the Drive Engine setup in our app, we need some test drive data to ensure it's working. In this section, we'll feed the Drive Engine mock data to make sure it works.
+Now that we've got the Driving Engine setup in our app, we need some test drive data to ensure it's working. In this section, we'll feed the Driving Engine mock data to make sure it works.
 
 ## Mock Data Files
 With the SDK, you're provided with two files in the `Data` folder, `MockActivity.txt` and `MockLocation.txt`. Store these files on your phone and note your file paths. For the purposes of this guide, we'll hard code these locations to the Download folder on the phone:
@@ -26,13 +26,13 @@ protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    // set context for the drive engine
+    // set context for the Driving Engine
     DEMDrivingEngineManager.setContext(this.getApplicationContext());
 
     // register this activity as a listener
     registerDriveEngineListener();
 
-    // start drive engine
+    // start Driving Engine
     DEMDrivingEngineManager.getInstance().startEngine();
 
     // start mock trip

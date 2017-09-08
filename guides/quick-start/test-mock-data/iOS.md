@@ -1,5 +1,5 @@
 # Test with Mock Data
-Now that we've got the Drive Engine setup in our app, we need some test drive data to ensure it's working. In this section, we'll feed the Drive Engine mock data to make sure it works.
+Now that we've got the Driving Engine setup in our app, we need some test drive data to ensure it's working. In this section, we'll feed the Driving Engine mock data to make sure it works.
 
 ## Mock Data Files
 With the SDK, you're provided with two files in the `Data` folder, `MockActivity.txt` and `MockLocation.txt`. Store these files on your phone and note your file paths. For the purposes of this guide, we'll embed these files in the app for testing.
