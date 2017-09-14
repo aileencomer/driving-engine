@@ -13,7 +13,7 @@ Switch to the Project View and drag Core Engine `.aar` file into `libs` folder. 
 
 ```gradle
 dependencies {
-    implementation(name: 'coreEngine_release_2.0.0', ext: 'aar')
+    implementation(name: 'coreEngine_trial_2.0.0', ext: 'aar')
 }
 
 repositories {
@@ -25,7 +25,7 @@ repositories {
 
 Run a `Gradle Sync` to see the changes.
 
-__NOTE__: You'll need to update `coreEngine_release_2.0.0` to match the version of the SDK you're using.
+__NOTE__: You'll need to update `coreEngine_trial_2.0.0` to match the version of the SDK you're using.
 
 ## Manifest Changes
 In order to notify Android about metadata and permissions that the SDK requires, you'll need to make the below modifications to `AndroidManifest.xml` in your project.
