@@ -1,6 +1,6 @@
 # Interpreting the Trip Summary
 
-## Every five miles, the Driving Engine saves a trip summary that contains an aggregate of all the statistics it's collected during the trip. The following describes the contents of this in more detail.
+Every five miles, the Driving Engine saves a trip summary that contains an aggregate of all the statistics it's collected during the trip. The following describes the contents of this in more detail.
 
 | Term                             | Definition                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
