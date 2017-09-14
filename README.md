@@ -19,8 +19,5 @@ Head over to [Releases](https://github.com/arity-developer/driving-engine/releas
 ## Quick Start
 To get up and running with the SDK quickly, check out the [Quick Start](https://github.com/arity-developer/driving-engine/tree/master/guides/quick-start/Index.md)
 
-## Overview 
-
-* **mock** - contains mock activity and location data for you to use when testing the SDK.
-* **reference** - contains full API reference for the Driving Engine.
-* **binaries** - contains the iOS and Android binaries to use with your project.
+## Guides
+For a listing of all guide topics (including customization and best practices), check out the rest of our [guides](https://github.com/arity-developer/driving-engine/blob/master/guides/Index.md).
