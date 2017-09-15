@@ -110,7 +110,7 @@ func registerDriveEventListener() {
 }
 ```
 
-In our `registerDriveEventListener()` method, we register the `ViewController` as the event listener for drive events. The second line tells the Driving Engine that it should surface all Drive Events to the listener. We call this function in `viewDidLoad` and then start the engine.
+In our `registerDriveEventListener()` method, we register the `ViewController` as the event listener for drive events. The third line tells the Driving Engine that it should surface all Drive Events to the listener. We call this function in `viewDidLoad` and then start the engine.
 
 The rest of the functions are implementations of the `DEMDrivingEngineDelegate` protocol. These functions act as callbacks for different Driving Engine events. As you can see from the available callbacks, you have a rich number events to draw from the Driving Engine to affect the functionality of your application. A full listing is available [here](../../reference/available-callbacks.md).
 
