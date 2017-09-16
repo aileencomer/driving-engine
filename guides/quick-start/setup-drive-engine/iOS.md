@@ -1,4 +1,4 @@
-# Setup the Driving Engine
+# Set Up the Driving Engine
 Here, we're going to configure the Driving Engine and start it in the foreground. We'll do this from the `ViewController` of our application. 
 
 # Imports
@@ -115,4 +115,4 @@ In our `registerDriveEventListener()` method, we register the `ViewController` a
 The rest of the functions are implementations of the `DEMDrivingEngineDelegate` protocol. These functions act as callbacks for different Driving Engine events. As you can see from the available callbacks, you have a rich number events to draw from the Driving Engine to affect the functionality of your application. A full listing is available [here](../../reference/available-callbacks.md).
 
 ## Next Steps
-Now that the app is setup, let's test it with some mock data! You can do learn to do that [here](../test-mock-data/iOS.md).
+Now that the app is set up, let's test it with some mock data! You can do learn to do that [here](../test-mock-data/iOS.md).
