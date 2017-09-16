@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements DEMDrivingEngineM
 }
 ```
 
-This may seem like a lot so let's break it down:
+This may seem like a lot, so let's break it down:
 
 ```java
 public void registerDriveEngineListener() {
