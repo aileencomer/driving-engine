@@ -1,5 +1,5 @@
 # Test with Mock Data
-Now that we've got the Driving Engine setup in our app, we need some test drive data to ensure it's working. In this section, we'll feed the Driving Engine mock data to make sure it works.
+Now that we've got the Driving Engine set up in our app, we need some test drive data to ensure it's working. In this section, we'll feed the Driving Engine mock data to make sure it works.
 
 ## Mock Data Files
 With the SDK, you're provided with two files in the `Data` folder, `MockActivity.txt` and `MockLocation.txt`. Store these files on your phone and note your file paths. For the purposes of this guide, we'll embed these files in the app for testing.
@@ -24,7 +24,7 @@ Add a call to this in your `viewDidLoad`:
 ```swift
 override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional set up after loading the view, typically from a nib.
     
     // configure Driving Engine
     configureDrivingEngine()
@@ -42,9 +42,7 @@ override func viewDidLoad() {
 The `cadence` that you set for `startMockTrip` will determine how fast the engine processes each GPS point. For example, a value of `0.5` would correspond to a half second between points where a value of `1.0` would be real time.
 
 ## Test the application
-Since there isn't any UI on this app, we'll monitor the `Device Console` to ensure the mock trip is working. After you've built and deployed the app to your phone, run the app to with it connected to your laptop to see debug messages. You should see:
-
-**TODO** show Device Console messages
+Since there isn't any UI on this app, we'll monitor the `Device Console` to ensure the mock trip is working. After you've built and deployed the app to your phone, run the app to with it connected to your laptop to see debug messages.
 
 ## Next Steps
 Great, you've got some test data working! Next, we'll learn to [interpret the trip summaries](../../reference/interpret-trip-summary.md).
