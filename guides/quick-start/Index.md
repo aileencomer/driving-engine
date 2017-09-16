@@ -1,6 +1,6 @@
 # Quick Start
 
-You can get up and running with the Driving Engine SDK from here. In this guide, you'll:
+You can get up and running with the Driving Engine SDK from here. In this guide, you'll learn to do the following:
 
 * Integrate the SDK with your project
 * Setup the Driving Engine
