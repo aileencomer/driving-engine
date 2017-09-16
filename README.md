@@ -4,7 +4,7 @@ The Driving Engine SDK allows developers to gain insights into how a driver is o
 ## Features
 Using the Driving Engine SDK, you'll be able to
 * Detect when a user starts and stops driving their car
-* Detect hard accelerations
+* Detect hard acceleration
 * Detect hard braking
 * Detect when a user is speeding
 * Get 1Hz GPS trails for a trip
