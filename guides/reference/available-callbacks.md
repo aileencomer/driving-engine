@@ -1,5 +1,5 @@
 # Available Callbacks
-The following event capture masks are available for 
+The following event capture masks can be used to filter out driving events from the engine:
 
 #### Recording Started
 * Android: `DEMEventCaptureMask.RECORDING_STARTED`
