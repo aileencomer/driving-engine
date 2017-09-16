@@ -2,7 +2,7 @@
 The Driving Engine SDK allows developers to gain insights into how a driver is operating their car. At Arity, we use this information to make informed decisions about driving behavior.
 
 ## Features
-Using the Driving Engine SDK, you'll be able to:
+Using the Driving Engine SDK, you'll be able to
 * Detect when a user starts and stops driving their car
 * Detect hard accelerations
 * Detect hard braking
