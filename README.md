@@ -8,7 +8,6 @@ Using the Driving Engine SDK, you'll be able to
 * Detect hard braking
 * Detect when a user is speeding
 * Get 1Hz GPS trails for a trip
-* View histograms of driving speed, acceleration, and braking
 
 ## Get the SDK
 Head over to [Releases](https://github.com/arity-developer/driving-engine/releases) to download the latest build of the SDK. 
