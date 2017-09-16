@@ -1,4 +1,4 @@
-# Setup the Driving Engine
+# Set Up the Driving Engine
 Here, we're going to configure the Driving Engine and start it in the foreground. We'll do this from the `MainActivity` of our application. 
 
 ## Imports
@@ -182,4 +182,4 @@ public void onError(DEMError demError) {
 In a production app, you'll want to kick off the Driving Engine and manage event callbacks in a service. You can learn more about that [here](../../best-practices/background-service/Android.md).
 
 ## Next Steps
-Now that the app is setup, let's test it with some mock data! You can do learn to do that [here](../test-mock-data/Android.md).
+Now that the app is set up, let's test it with some mock data! You can do learn to do that [here](../test-mock-data/Android.md).
