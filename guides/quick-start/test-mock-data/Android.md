@@ -40,7 +40,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-The `cadence` that you set for `startMockTrip` will determine how fast the engine processes each GPS point. For example, a value of `0.5` would correspond to a half second between points where a value of `1.0` would be real time.
+The `cadence` that you set for `startMockTrip` will determine how fast the engine processes each GPS point. For example, a value of `0.5` would correspond to a half second between points, whereas a value of `1.0` would be real time.
 
 ## Test the Application
 Since there isn't any UI on this app, we'll monitor `logcat` to ensure the mock trip is working. After you've built and deployed the app to your phone, run the following to monitor logs from the app in your Terminal / Command Prompt:
