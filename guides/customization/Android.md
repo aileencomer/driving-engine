@@ -38,6 +38,8 @@ private void configureSDK() {
 ```
 
 ## Modify the Speed Limit for Speeding Events
+You can programmatically change the speed limit at which start and end of speeding events are fired.
+
 ```java
 func configureDriveEngine() {
     // Read current configuration
