@@ -9,8 +9,8 @@ Using the Driving Engine SDK, you'll be able to utilize these features:
 * Detect when a user is speeding
 * Get 1Hz GPS trails for a trip
 
-## Get the SDK
-Head over to [Releases](https://github.com/arity-developer/driving-engine/releases) to download the latest build of the SDK. 
+## Get the Driving Engine
+Head over to [Releases](https://github.com/arity-developer/driving-engine/releases) to download the latest build of the Driving Engine as well as reference Android and iOS apps that implement it. 
 
 ## Quick Start
 To get up and running with the SDK quickly, check out the [Quick Start](https://github.com/arity-developer/driving-engine/tree/master/guides/quick-start/Index.md)
