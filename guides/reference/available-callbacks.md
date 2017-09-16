@@ -58,3 +58,5 @@ Event fires when the driving engine detects the end of a speeding event.
 #### Capture all events
 * Android: `DEMEventCaptureMask.ALL`
 * iOS: `DEMEventCaptureMask.all`
+
+Emits all possible driving events.
