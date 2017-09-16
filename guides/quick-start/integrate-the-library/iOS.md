@@ -7,7 +7,7 @@ In the `General` page for the project settings under `Embedded Binaries`, add a 
 ## Permissions and Declarations
 In your `Info.plist`, you'll need to add several keys for location prompts and to notify iOS that you'll be using background location services.
 
-In the source view,
+In the source view:
 
 ```xml
 <key>NSLocationUsageDescription</key> 
