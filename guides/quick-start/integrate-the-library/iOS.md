@@ -1,5 +1,5 @@
 # Integrating the Library
-The iOS version of the Driving Engine SDK is delivered as a `Framework (.framework)` for iOS. With a couple steps, you can quickly get up and running with the Driving Engine SDK in your project.
+The iOS version of the Driving Engine SDK is delivered as a `Framework (.framework)` for iOS. With a couple of steps, you can quickly get up and running with the Driving Engine SDK in your project.
 
 ## Import the Library
 In the `General` page for the project settings under `Embedded Binaries`, add a new binary. Locate the SDK, `CoreEngine.framework` in either the `release` (for devices) or `universal` (for emulators) folder and add it. Ensure that you select `Copy items if needed` when doing this. The library should show up under both `Embedded Libraries` and `Linked Frameworks and Binaries`.
