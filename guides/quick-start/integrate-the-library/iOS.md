@@ -24,7 +24,7 @@ In the source view,
 </array>
 ```
 
-You'll want to change these description entries to describe to a user while you'll be accessing their location.
+You'll want to change these description entries to describe to a user why you'll be accessing their location.
 
 ## Next Steps
 You should now be able to build your application without any errors. If that's working, let's move on to the next step and [setup the Driving Engine](../setup-drive-engine/iOS.md)
